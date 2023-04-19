@@ -13,6 +13,9 @@
 		9C42DC9529ED7A9D008097ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C42DC9329ED7A9D008097ED /* Main.storyboard */; };
 		9C42DC9729ED7A9F008097ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C42DC9629ED7A9F008097ED /* Assets.xcassets */; };
 		9C42DC9A29ED7A9F008097ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C42DC9829ED7A9F008097ED /* LaunchScreen.storyboard */; };
+		9C42DCA229F0389C008097ED /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C42DCA129F0389C008097ED /* ResultViewController.swift */; };
+		9C42DCA429F03AF7008097ED /* CalculCentre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C42DCA329F03AF7008097ED /* CalculCentre.swift */; };
+		9C42DCA629F03C59008097ED /* IMC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C42DCA529F03C59008097ED /* IMC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		9C42DC9629ED7A9F008097ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C42DC9929ED7A9F008097ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C42DC9B29ED7A9F008097ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C42DCA129F0389C008097ED /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		9C42DCA329F03AF7008097ED /* CalculCentre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculCentre.swift; sourceTree = "<group>"; };
+		9C42DCA529F03C59008097ED /* IMC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				9C42DC9629ED7A9F008097ED /* Assets.xcassets */,
 				9C42DC9829ED7A9F008097ED /* LaunchScreen.storyboard */,
 				9C42DC9B29ED7A9F008097ED /* Info.plist */,
+				9C42DCA129F0389C008097ED /* ResultViewController.swift */,
+				9C42DCA329F03AF7008097ED /* CalculCentre.swift */,
+				9C42DCA529F03C59008097ED /* IMC.swift */,
 			);
 			path = "Calcul-IMC";
 			sourceTree = "<group>";
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C42DC9229ED7A9D008097ED /* ViewController.swift in Sources */,
+				9C42DCA629F03C59008097ED /* IMC.swift in Sources */,
 				9C42DC8E29ED7A9D008097ED /* AppDelegate.swift in Sources */,
+				9C42DCA429F03AF7008097ED /* CalculCentre.swift in Sources */,
 				9C42DC9029ED7A9D008097ED /* SceneDelegate.swift in Sources */,
+				9C42DCA229F0389C008097ED /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
